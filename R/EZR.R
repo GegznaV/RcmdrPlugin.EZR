@@ -16,6 +16,7 @@
 require("datasets")
 #requireNamespace("car") 
 require("methods")
+require("Rcmdr")
 window.type <- "width=7, height=7"
 par.option <- 'lwd=1, las=1, family="sans", cex=1, mgp=c(3.0,1,0)'
 #The first parameter of mpg defines the distance between axis and axis labels.
