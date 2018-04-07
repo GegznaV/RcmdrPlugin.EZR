@@ -17,6 +17,7 @@ require("datasets")
 #requireNamespace("car") 
 require("methods")
 require("Rcmdr")
+
 window.type <- "width=7, height=7"
 par.option <- 'lwd=1, las=1, family="sans", cex=1, mgp=c(3.0,1,0)'
 #The first parameter of mpg defines the distance between axis and axis labels.
@@ -962,8 +963,7 @@ OrderedPlot <- function(y, group=NULL, type="line", xlab="", ylab="Value", ylog=
 	if (is.null(group) | type=="box"){
 		if (type=="line"){
 			Order <- order(y, decreasing=decreasing)
-			plot(x=seq(from=0, to=1, length.out=length(y)), y=y[Order], xaxp=c(0,1,10), type="l", ylim=ylim, log=ylog, xlab=xlab, ylab=ylab)
-		} else {
+log		} else {
 			Order <- order(y, decreasing=decreasing)
 #			names.arg <- c("0", rep("", length(y)-2), "1")
 			names.arg=NULL
