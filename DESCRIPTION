@@ -6,7 +6,7 @@ Date: 2018-04-01
 Author: Yoshinobu Kanda
 Maintainer: Yoshinobu Kanda <ycanda-tky@umin.ac.jp>
 Depends: R (>= 3.2.0)
-Imports: Rcmdr (>= 2.4.0), readstata13
+Imports: Rcmdr (>= 2.4.0), readstata13, RcmdrPlugin.EZR
 Suggests: abind, aod, aplpack, car, clinfun, cmprsk, foreign, meta,
         metatest, multcomp, mvtnorm, optmatch, pROC, survRM2, tableone,
         readxl
